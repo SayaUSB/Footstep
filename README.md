@@ -1,1 +1,1 @@
-visualization of a walking pathfinding simulation for humanoid robot
+Visualization of a walking pathfinding simulation for humanoid robot
