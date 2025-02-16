@@ -1,0 +1,11 @@
+Metadata-Version: 2.2
+Name: gym_footsteps_planning
+Version: 1.0
+Summary: Footstep Planning RL Environments
+Requires-Dist: gymnasium<1.1.0,>=0.29.1
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: stable_baselines3>=2.1.0
+Requires-Dist: sb3-contrib>=2.1.0
+Requires-Dist: pygame
+Dynamic: requires-dist
+Dynamic: summary
