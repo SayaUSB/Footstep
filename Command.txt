@@ -2,4 +2,4 @@ python -m rl_zoo3.enjoy --algo td3 --env footsteps-planning-any-v0 --gym-package
 
 python -m rl_zoo3.train --algo td3 --env footsteps-planning-any-v0 --gym-packages gym_footsteps_planning --conf hyperparams/td3.yml
 
-python -m rl_zoo3.enjoy --algo td3 --env footsteps-planning-any-v0 --env-kwargs '{"start_foot_pose": [0.5, 0.5, 0.785], "target_foot_pose": [3.0, 2.0, 1.570], "start_support_foot": "left", "target_support_foot": "right"}' --folder logs/ --load-best --exp-id 0 
+mo --input_model model.onnx --output_dir openvino_model/ --framework onnx 
